@@ -1,5 +1,5 @@
 body {
-	background: #181915;
+	background: #22231D;
 	margin: 0 auto;
 	width: 100%;
 	font-family: 'Russo One', sans-serif;
@@ -79,6 +79,8 @@ body {
 	padding: 5px;
 	margin-top: 10px;
 	padding: 15px;
+	background-color:#2A2B24;
+	border-radius: 20px;
 }
 
 #ps_img{
