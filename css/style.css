@@ -1,0 +1,146 @@
+body {
+	background: #181915;
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Russo One', sans-serif;
+}
+
+.sl {
+	background: black;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius:100px ;
+}
+#log_img {
+	width: 70px;
+}
+
+#name {
+	color: white;
+	font-size: 35px;
+	transition: 0.2s;
+}
+
+#name:hover {
+	color: #36F2FF;
+	text-shadow: 0 0 15px white;
+}
+
+#pod_name {
+	color: white;
+	opacity: 50%;
+}
+
+.menu {
+	margin-top: 20px;
+}
+
+#href {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 5px;
+	background-color: greenyellow;
+	padding: 10px;
+	border-radius: 10px;
+	text-shadow: 0 0 10px white;
+	transition: 0.2s;
+}
+
+#href:hover {
+	background-color:#74A924;
+}
+
+#akdd {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.news {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	width: 500px;
+	padding: 5px;
+	border-radius: 100px;
+	margin: 0 auto;
+	border: 3px solid white;
+}
+
+.ps {
+	width: 550px;
+	margin: 0 auto;
+	box-shadow: 0 0 15px black;
+	padding: 5px;
+	margin-top: 10px;
+	padding: 15px;
+}
+
+#ps_img{
+	width: 99%;
+	border-radius: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desp {
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 22px;
+}
+
+#btn {
+	color: black;
+	font-size: 18px;
+	padding: 5px;
+	text-decoration: none;
+	text-shadow: 0 0 10px white;
+	background-color: #FFBF00;
+	border-radius: 100px;
+}
+
+#btn:hover {
+	background-color: #FFD400;
+}
+
+@media screen and (max-width : 480px) {
+	#log_img {
+		width: 60px;
+	}
+
+	#name {
+		font-size: 25px;
+	}
+
+	#pod_name {
+		font-size: 14;
+	}
+
+	.sl {
+		width: 95%;
+		padding: 5px;
+	}
+
+	#href {
+		font-size: 18px;
+	}
+
+	#akdd {
+		width: 300px;
+	}
+
+	.news {
+		width: 300px;
+		font-size: 23px;
+	}
+
+	.ps {
+		width: 300px;
+	}
+}
