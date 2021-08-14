@@ -1,0 +1,235 @@
+body {
+	background: #22231D;
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Russo One', sans-serif;
+	-webkit-tap-highlight-color: transparent;
+
+}
+
+.sl {
+	background: black;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius:100px ;
+}
+#log_img {
+	width: 100px;
+}
+
+#name {
+	color: white;
+	font-size: 35px;
+	transition: 0.2s;
+}
+
+#name:hover {
+	color: #36F2FF;
+	text-shadow: 0 0 15px white;
+}
+
+#pod_name {
+	color: white;
+	opacity: 50%;
+}
+
+.menu {
+	margin-top: 20px;
+}
+
+#href {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 5px;
+	background-color: greenyellow;
+	padding: 10px;
+	border-radius: 10px;
+	text-shadow: 0 0 10px white;
+	transition: 0.2s;
+}
+
+#href:hover {
+	background-color:#74A924;
+}
+
+#akdd {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.news {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	width: 500px;
+	padding: 5px;
+	border-radius: 100px;
+	margin: 0 auto;
+	border: 3px solid white;
+}
+
+.ps {
+	width: 550px;
+	margin: 0 auto;
+	box-shadow: 0 0 15px black;
+	padding: 5px;
+	margin-top: 10px;
+	padding: 15px;
+	background-color:#2A2B24;
+	border-radius: 20px;
+}
+
+#ps_img{
+	width: 99%;
+	border-radius: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desp {
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 22px;
+}
+
+#btn {
+	color: black;
+	font-size: 18px;
+	padding: 5px;
+	text-decoration: none;
+	text-shadow: 0 0 10px white;
+	background-color: #FFBF00;
+	border-radius: 100px;
+}
+
+#btn:hover {
+	background-color: #FFD400;
+}
+
+.telegram {
+	background-color: #259EDA;
+	padding: 5px;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+
+#tg {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	text-shadow: 0 0 20px black;
+}
+
+.telegram:hover {
+	background-color: #2BB8FF;
+}
+
+#pdi{
+	width: 400px;
+	border-radius: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#p_desp {
+	color: white;
+	font-size: 25px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.pp1 {
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid #22231D;
+}
+
+#vo {
+	margin: 0 auto;
+	width: 500px;
+	background-color: #171814;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#vo_name {
+	color: white;
+	font-size: 20px;
+}
+
+#vo_text {
+	color: white;
+	font-size: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#vo_link {
+	color: #318CE7;
+	text-decoration: none;
+}
+
+@media screen and (max-width : 480px) {
+	#log_img {
+		width: 80px;
+	}
+
+	#name {
+		font-size: 25px;
+	}
+
+	#pod_name {
+		font-size: 14;
+	}
+
+	.sl {
+		width: 95%;
+		padding: 5px;
+	}
+
+	#href {
+		font-size: 18px;
+	}
+
+	#akdd {
+		width: 300px;
+	}
+
+	.news {
+		width: 300px;
+		font-size: 23px;
+	}
+
+	.ps {
+		width: 300px;
+	}
+
+	#pdi {
+		width: 300px;
+	}
+
+	#p_desp {
+		font-size: 22px;
+	}
+
+	.pp1 {
+		width: 300px;
+	}
+
+	#vo {
+		width: 300px;
+	}
+}
